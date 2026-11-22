@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.pixietubfix.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "pixietubfix.refmap.json",
+  "mixins": [
+    "PixieTubMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
